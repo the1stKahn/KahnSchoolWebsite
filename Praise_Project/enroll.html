@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/contact.css" >
+    <link rel="stylesheet" href="./styles/queries.css" >
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="wrapper">
+    <section class="header">
+        <nav>
+           
+            <a class="logo" href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="enroll.html">ENROLL WITH US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <div class="moving-box">ENROLL</div>
+            <h1>BEGIN YOUR JOURNEY</h1>
+            <p>
+                A Journey of a Thousand Miles begin with only but  a step<br><em>Dao De Jing </em>
+            </p>
+            <a href="#" class="info-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <!--testimoney from students and teachers-->
+    <section class="testimonial">
+        <h1>What Everyone Says</h1>
+        <p>Here what everyone on Campus has to say about our school</p>
+        <div class="row">
+        <div class="testimonial-col">
+            <img src="img/Student1.png">
+            <div>
+                <p>
+                    The professors are not only experts in their fields but also genuinely committed to our success,<br> often going above and beyond to ensure we grasp complex concepts and apply them in real-world scenarios.<br> The diverse student body has opened my eyes to different perspectives and has led to lasting friendships. 
+                </p>
+                <h3>Clyde Dash</h3>
+            </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="img/student2.png">
+            <div>
+                <p>
+                    "As a student at Praise University, my experience has been nothing short of transformative. From day one, I was welcomed into a community where every teacher and staff member genuinely cares about our success and well-being. The curriculum is challenging yet rewarding, pushing me to expand my horizons and think critically. 
+                </p>
+                <h3>Lora Crofty</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--REGISTRATION FORM-->
+    <h2>WHAT ARE YOU WATING FOR? JOIN US!</h2>
+    <section class="enroll">
+        <div class="enroll-col" style="display: block;">
+            <form action="">
+               
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+        
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+        
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" min="1" max="100"><br>
+        
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+        
+                <label for="bio">Tell us a bit about yourself:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+        
+                <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                <label for="subscribe">Subscribe to newsletter</label><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        
+        </div>         
+    </section>
+    <!--footer containg navigation bar-->
+    <section class="footer">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="enroll.html">ENROLL WITH US</a></li>
+        </ul>
+    </section>
+</div>
+</body>
+</html>
